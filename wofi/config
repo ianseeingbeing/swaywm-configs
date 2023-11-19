@@ -1,0 +1,9 @@
+window {
+  color: #A9B1BD;
+  background-color: #2D3037;
+}
+#inner-box {
+  margin: 5px;
+  border: 2px solid #2D3037;
+  background-color: #2D3037;
+}

@@ -1,0 +1,21 @@
+{ 
+	"layer": "top",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["sway/window"],
+	"modules-right": ["network", "battery", "clock"],
+	"hyprland/window": {
+		"max-length": 50
+	},
+	"clock": {
+		"format-alt": "{:%b, %d, %a %H:%M}"
+	},
+	"battery": {
+		"format": "{icon} {capacity}%",
+		"format-icons": ["", "", "", "", ""]
+	},
+	"network": {
+		"format": "{icon} {essid}",
+		"format-icons": [""],
+		"interval": 5
+	}
+}
