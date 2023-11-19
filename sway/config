@@ -17,6 +17,8 @@ set $right l
 set $term xfce4-terminal
 # Your preferred application launcher
 set $menu wofi --show=drun --style ~/.config/wofi/config
+# Browser variable
+set $browser firefox
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 
@@ -82,6 +84,9 @@ bindsym $mod+Control+m exec systemctl suspend
 
     # File Manager
     bindsym $mod+n exec nautilus 
+
+    # Browser
+    bindsym $mod+g exec $browser
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
