@@ -28,7 +28,8 @@ set $browser firefox
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 ## Custom Wallpaper:
-output "*" bg ~/Pictures/Wallpapers/candy-lake.jpg fill
+# output "*" bg ~/Pictures/Wallpapers/candy-lake.jpg fill
+output "*" bg ~/Pictures/Wallpapers/big-leaf-forest.jpg fill
 
 #
 # Example configuration:
