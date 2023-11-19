@@ -1,5 +1,5 @@
 * {
-	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-family: FontAwesome, NotoSans;
 	font-size: 13px;
 	color: white;
 }
@@ -19,7 +19,7 @@ button:hover {
 }
 
 #workspaces button {
-	padding: 0 6px;
+	padding: 0 3px;
 	color: black;
 }
 

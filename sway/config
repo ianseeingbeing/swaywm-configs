@@ -217,8 +217,11 @@ bindsym $mod+r mode "resize"
 #
 # Design:
 #
+
 default_border pixel 2
 default_floating_border pixel 2
+
+client.focused #ffffff #3d6765 #0000ff #3d88dd
 
 gaps inner 4
 
